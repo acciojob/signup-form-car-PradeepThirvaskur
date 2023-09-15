@@ -7,11 +7,11 @@
   </head>
   <body>
     <table>
-      <form action="post">
-        <label for="name">Name :</label>
+      <form method="post">
+        <label for="name">Name </label>
         <input type="text" placeholder="Name" id="name" required />
         <br><br>
-        <label for="email">Email :</label>
+        <label for="email">Email </label>
         <input type="Email" placeholder="Email" id="email" required />
         <br><br>
        <label>
@@ -27,7 +27,7 @@
            </label>
 		  <input type="radio" name="gender" id="gender_f" />
         <br><br>
-        <label for="cars"> Car Brands :</label>
+        <label for="cars"> Car Brands </label>
         <select id="cars" name="cars" required>
             <option value="" disabled selected>--Please choose an option--</option>
             <option value="audi">Audi</option>
@@ -36,22 +36,23 @@
             <option value="toyota">Toyota</option>
         </select><br>
         <br>
-        <label for="age">Age :</label>
+        <label for="age">Age </label>
          <input type="Number" placeholder="Age" id="age" required >
         <br><br>
-        <label for="dob">DOB :</label>
+        <label for="dob">DOB </label>
         <input type="Date" id="dob" required>
         <br><br>
-        <label for="tel">Phone Number :</label>
+        <label for="tel">Phone Number </label>
         <input type="Tel"  placeholder="xxx-xxx-xxxx"  id="tel">
         <br><br>
-        <label for="password">Password :</label>
+        <label for="password">Password </label>
         <input type="Password" placeholder="Password" id="password" required>
         <br><br>
-        <label for="tos">I agree to the IOS</label>
-        <input type="Checkbox" id="ios" required><br>
+        <label for="tos">I agree to the TOS</label>
+        <input type="Checkbox" id="tos" required><br>
         <br>
-        <button>submit</button>
+        <button type="submit">submit</button>
+		  
       </form>
     </table>
   </body>
